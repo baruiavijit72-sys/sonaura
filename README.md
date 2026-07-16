@@ -61,4 +61,4 @@ flutter pub get
 flutter run
 ```
 
-## 🇮🇳 Created by Avishek Barui
+## 🇮🇳 Created by Avijit Barui
