@@ -1,5 +1,5 @@
 name: sonaura_app
-description: Sonaura — Free Music Streaming. No Ads. No Subscriptions. Ever.
+description: Sonaura - Free Music Streaming. No Ads. No Subscriptions. Ever.
 publish_to: 'none'
 version: 1.0.0+1
 
@@ -11,22 +11,22 @@ dependencies:
   flutter:
     sdk: flutter
 
-  # ── State Management ──
+  # State Management
   flutter_bloc: ^8.1.6
   bloc: ^8.1.4
   equatable: ^2.0.7
 
-  # ── Routing ──
+  # Routing
   go_router: ^14.6.2
 
-  # ── Networking ──
+  # Networking
   dio: ^5.7.0
   connectivity_plus: ^6.1.0
 
-  # ── Secure Storage ──
+  # Secure Storage
   flutter_secure_storage: ^9.2.2
 
-  # ── UI Components ──
+  # UI Components
   google_fonts: ^6.2.1
   cached_network_image: ^3.4.1
   shimmer: ^3.0.0
@@ -34,32 +34,32 @@ dependencies:
   animations: ^2.0.11
   flutter_svg: ^2.0.14
 
-  # ── Audio Player ──
+  # Audio Player
   just_audio: ^0.9.40
   audio_service: ^0.18.15
 
-  # ── File Management ──
+  # File Management
   path_provider: ^2.1.5
   path: ^1.9.0
   crypto: ^3.0.6
   encrypt: ^5.0.3
 
-  # ── Utilities ──
+  # Utilities
   intl: ^0.19.0
   uuid: ^4.5.1
   logger: ^2.5.0
   freezed_annotation: ^2.4.4
   json_annotation: ^4.9.0
 
-  # ── Platform Channels ──
+  # Platform Channels
   flutter_local_notifications: ^18.0.1
 
-dev_dependencies:
+dev_desendencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^4.0.0
   bloc_test: ^8.5.0
-  mocktail: ^1.0.4
+  mocktail: ^0.2.0
   build_runner: ^2.4.12
 
 flutter:
@@ -82,7 +82,7 @@ flutter:
         - asset: assets/fonts/Inter-Bold.ttf
           weight: 700
 
-    - family: SpaceGrotesk
+    - family: SpaceGrotesk* 
       fonts:
         - asset: assets/fonts/SpaceGrotesk-Bold.ttf
           weight: 700
