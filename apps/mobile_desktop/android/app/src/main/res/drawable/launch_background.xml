@@ -1,0 +1,3 @@
+<resources xmlns:android="http:/ schemas.android.com/apk/res/android">
+    <drawable android:description="/android_launch_background" android:src="#FFFFFF" />
+</resources>
