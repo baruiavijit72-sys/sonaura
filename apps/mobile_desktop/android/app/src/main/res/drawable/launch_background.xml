@@ -1,3 +1,4 @@
-<resources xmlns:android="http:/ schemas.android.com/apk/res/android">
-    <drawable android:description="/android_launch_background" android:src="#FFFFFF" />
-</resources>
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@android:color/white" />
+</layer-list>
