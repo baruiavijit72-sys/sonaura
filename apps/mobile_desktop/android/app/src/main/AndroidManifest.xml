@@ -2,25 +2,25 @@
     package="dev.sonaura.app">
     <application
         android:label="Sonaura"
-        android:name="${\applicationName}"
+        android:name="android.app.Application"
         android:icon="@mipmap/ic_launcher">
         <activity
-            android:name=".MainActivity"
+            android:name=".MainActivity"            
             android:exported="true"
             android:launchMode="singleTop"
             android:theme="@style/LaunchTheme"
-            android:configChanges="orientation|screenSize|keyboardHidden|modement|lucale|layoutDirection|fontScale|screenLayout|density|uiMode"
+            android:configChanges="orientation|screenSize|keyboardHidden|modement|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
             android:hardwareAccelerated="true">
             <meta-data
                 android:name="io.flutter.embedding.android.NotificationChannelId"
                 android:value="sonaura_channel" />
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAENCHER"/>
+                <categoryandroid:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
         <meta-data
-            android:name="flutterEditing
-            android:value="v2" />
+            android:name="io.flutter.embedding.android.SplashUppressed"
+            android:value="true" />
     </application>
 </manifest>
