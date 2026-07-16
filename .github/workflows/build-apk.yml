@@ -26,7 +26,6 @@ jobs:
       - name: 🚀 Setup Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.22.5' # আপনার প্রজেক্টের স্ট্যাবল ভার্সন
           channel: 'stable'
           cache: true
 
